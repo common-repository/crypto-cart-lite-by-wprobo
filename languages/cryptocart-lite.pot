@@ -1,0 +1,210 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Package Name\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-24 00:23+0500\n"
+"PO-Revision-Date: 2023-07-24 00:23+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+
+#: cryptocart-lite.php:130
+msgid ""
+"Please install and activate WooCommerce plugin to use Crypto Cart Lite by "
+"WPRobo."
+msgstr ""
+
+#: includes/admin/settings/payment-gateways.php:19
+msgid "Enable the Crypto Payment Gateways"
+msgstr ""
+
+#: src/Admin/Menu.php:79 src/Admin/Menu.php:80 src/Admin/Menu.php:109
+msgid "CryptoCart Lite"
+msgstr ""
+
+#: src/Admin/Menu.php:110
+msgid "Enable the Gateway before continue."
+msgstr ""
+
+#: src/Admin/Menu.php:129
+msgid "Nonce expired. Please refresh the page and try again."
+msgstr ""
+
+#: src/Admin/Menu.php:150
+msgid ""
+"Unable to save the settings. Some internal error occurred. Please try again."
+msgstr ""
+
+#: src/Admin/Menu.php:154
+msgid "Settings were successfully Saved."
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:59
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:336
+msgid "CoinPayments.net - CryptoCart Lite"
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:109
+msgid ""
+"Thank you for your order, please click the button below to pay with "
+"CoinPayments.net."
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:132
+msgid "Something went wrong"
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:144
+msgid "HMAC signature does not match"
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:147
+msgid "No or incorrect Merchant ID passed"
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:150
+msgid "Error reading POST data"
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:153
+msgid "No HMAC signature sent."
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:156
+msgid "Unknown IPN verification method."
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:197
+#, php-format
+msgid "CoinPayments.net IPN Error: %s"
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:254
+msgid "Enable/Disable"
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:256
+msgid "Enable CoinPayments.net"
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:260
+msgid "Title"
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:262
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:263
+msgid "CoinPayments.net"
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:267
+msgid "Description"
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:269
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:270
+msgid "Pay with Bitcoin, Litecoin, or other altcoins via CoinPayments.net"
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:273
+msgid "Merchant ID"
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:275
+msgid "Please enter your CoinPayments.net Merchant ID."
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:279
+msgid "IPN Secret"
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:281
+msgid "Please enter your CoinPayments.net IPN Secret."
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:285
+msgid "Compatibility Mode"
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:287
+msgid ""
+"This may be needed for compatibility with certain addons if the order total "
+"isn't correct."
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:291
+msgid "Collect Shipping Info?"
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:293
+msgid "Enable Shipping Information on Checkout page"
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:297
+msgid "Enable 1st-confirm payments?"
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:299
+msgid ""
+"* WARNING * If this is selected orders will be marked as paid as soon as "
+"your buyer's payment is detected, but before it is fully confirmed. This can "
+"be dangerous if the payment never confirms and is only recommended for "
+"digital downloads."
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:303
+msgid "Invoice Prefix"
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:305
+msgid ""
+"Please enter a prefix for your invoice numbers. If you use your CoinPayments."
+"net account for multiple stores ensure this prefix is unique."
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:311
+msgid "Gateway Testing"
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:316
+msgid "Debug Email"
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:319
+msgid "Send copies of invalid IPNs to this email address."
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:337
+msgid "Completes checkout via CoinPayments.net"
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:351
+msgid "Gateway Disabled"
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:351
+msgid "CoinPayments.net does not support your store currency."
+msgstr ""
+
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:421
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:429
+#: src/PaymentGateways/WPRoboCCP_CoinPayments.php:436
+#, php-format
+msgid "Order %s"
+msgstr ""

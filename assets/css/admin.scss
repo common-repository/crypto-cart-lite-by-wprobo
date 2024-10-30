@@ -1,0 +1,68 @@
+$light-gray: #6b6b6b;
+$black: #0b0b0b;
+
+.ccp_page {
+
+  .ccp-inner {
+    margin-top: 30px;
+
+    .ccp-coinpayment-gateway {
+      label {
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        background: white;
+        padding: 20px;
+        border-radius: 6px;
+        text-align: center;
+        font-size: 1.8em;
+        color: $light-gray;
+        transition: all 0.2s ease;
+
+        &:hover {
+          color: $black;
+
+          img {
+            opacity: 1;
+          }
+        }
+
+        img {
+          opacity: 0.6;
+          transition: all 0.2s ease;
+        }
+
+        strong, span {
+          padding: 10px 0;
+        }
+      }
+
+      label.ccp-enable {
+        color: $black;
+
+        img {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .wprobo-label-m-5x {
+    label {
+      margin: 5px 0 !important;
+      display: block;
+    }
+  }
+
+  .placeholder-items {
+    list-style-type: disc;
+    padding: 0 20px;
+  }
+
+}
+
+
+@media screen and (min-width: 440px) {
+
+}
